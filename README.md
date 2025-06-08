@@ -57,3 +57,6 @@ The script will print the output feature maps for each configuration:
 * **Stride = 1, Padding = ‘SAME’**
 * **Stride = 2, Padding = ‘VALID’**
 * **Stride = 2, Padding = ‘SAME’**
+
+* Code Explanation
+The code is straightforward, using both NumPy for manual convolution and TensorFlow/Keras’s built-in layers for the actual operations. Comments are added for every step, so you know what is happening and why. No “black box” magic here.
